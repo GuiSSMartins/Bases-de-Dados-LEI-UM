@@ -59,7 +59,7 @@ Atenção: As chaves __Primárias__ devem ser as 1ª a identificar dentro de cad
          as chaves __Estrageiras__ devem ser as últimas.
 
 ## 5) Implementação física da Base de Dados
-### (para 2 entidades e um relacionamento entre elas)
+__(para 2 entidades e um relacionamento entre elas)__
 
 ```sql
 CREATE DATABASE IF NOT EXISTS 'modelo';
@@ -74,4 +74,4 @@ CREATE TABLE IF NOT EXISTS 'investigador' (
 ``` 
 
 ## 6) Povoamento e exploração da Base de Dados
-### (povoamento de duas tabelas que estejam relacionadas entre si)
+__(povoamento de duas tabelas que estejam relacionadas entre si)__
