@@ -13,12 +13,21 @@ resolver e o seu número de investigador. À medida que vão trabalhando num dad
 investigadores vão registando tudo aquilo que vão realizando, introduzindo no dossier do
 processo, para cada uma das atividades realizadas, a data, a hora e a sua descrição. Além disso,
 registam também, todos os contactos realizados, isto é, os nomes das pessoas com que foram
-falando, bem como as datas na qual fizeram os contactos.
+falando, bem como as datas na qual fizeram os contactos. (...)
 ```
+
+## 0) Identificação de Entidades (e seus atributos + chaves)
+
+__NOTA:__ Não é pedido no teste para o fazer, é apenas uma forma de organizar os dados antes de iniciar a resolução dos exercícios!
+
+- __Investigador__ : nome completo
+- __Dossier__ : número único, data de criação, nome da entidade
 
 ## 1) Definição do Sistema
 
 ### - CONTEXTUALIZAÇÃO
+
+Uma agência de detetives tem a trabalhar para si dez investigadores, cada um deles associado a uma área de investigação específica. Os casos que são entregues à agência para investigação são distribuídos pelos vários detetives, de acordo com a sua área de investigação.
 
 ### - FUNDAMENTAÇÃO
 
@@ -30,7 +39,9 @@ falando, bem como as datas na qual fizeram os contactos.
 
 __RD1__ - Os investigadores, para que possam trabalhar na agência, têm de indicar o seu nome completo, a sua data de nascimento, o número da sua cédula profissional e, pelo menos, dois endereços de email e dois números de telefone.
 
-__RD2__ - 
+__RD2__ - Cada área de investigação deve ser identificada (crime, fraude, rapto, etc.).
+
+__RD3__ - 
 
 ### - Requisitos de MANIPULAÇÃO
 
@@ -55,11 +66,12 @@ CREATE DATABASE IF NOT EXISTS 'modelo';
 
 USE DATABASE 'modelo';
 
-
-CREATE TABLE IF NOT EXISTS  '' (
+CREATE TABLE IF NOT EXISTS 'investigador' (
   
   
   
   )
 ``` 
 
+## 6) Povoamento e exploração da Base de Dados
+### (povoamento de duas tabelas que estejam relacionadas entre si)
