@@ -20,8 +20,8 @@ falando, bem como as datas na qual fizeram os contactos. (...)
 
 __NOTA:__ Não é pedido no teste para o fazer, é apenas uma forma de organizar os dados antes de iniciar a resolução dos exercícios!
 
-- __Investigador__ : nome completo
-- __Dossier__ : número único, data de criação, nome da entidade
+- __Investigador__ : nome completo, data de nascimento, nº da cédulo profissional (chave primária)
+- __Dossier__ : número único, data de criação, nome da entidade, (chaves estrangeiras das várias atividades 
 
 ## 1) Definição do Sistema
 
@@ -45,18 +45,22 @@ __RD3__ -
 
 ### - Requisitos de MANIPULAÇÃO
 
-__1__ - 
+__RM1__ - 
 
 ### - Requisitos de CONTROLO
 
-__1__ - 
+__RC1__ - 
 
 ## 3) Modelo Conceptual
+
+# (POR FAZER)
 
 ## 4) Modelo Lógico
 
 Atenção: As chaves __Primárias__ devem ser as 1ª a identificar dentro de cada tabela, enquanto que
          as chaves __Estrageiras__ devem ser as últimas.
+         
+# (POR FAZER)
 
 ## 5) Implementação física da Base de Dados
 __(para 2 entidades e um relacionamento entre elas)__
