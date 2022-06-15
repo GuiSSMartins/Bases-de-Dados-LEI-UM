@@ -1,7 +1,19 @@
 # | Teste MODELO 2022 |
 
 ```
-Uma agência de detetives tem a trabalhar para si dez investigadores, cada um deles associado a uma área de investigação específica (crime, fraude, rapto, etc.). Para trabalharem na agência, os investigadores têm que indicar o seu nome completo, a sua data de nascimento, o número da sua cédula profissional e, pelo menos, dois endereços de email e dois números de telefone. Os casos que são entregues à agência para investigação são distribuídos pelos vários detetives, de acordo com a sua área de investigação. Quando iniciam o seu trabalho, no âmbito de um dado caso, os investigadores criam um dossier de investigação específico, atribuindo-lhe um número único, uma data de criação, o nome da entidade que requereu a investigação, o número de dias que têm para o resolver e o seu número de investigador. À medida que vão trabalhando num dado processo, os investigadores vão registando tudo aquilo que vão realizando, introduzindo no dossier do processo, para cada uma das atividades realizadas, a data, a hora e a sua descrição. Além disso, registam também, todos os contactos realizados, isto é, os nomes das pessoas com que foram falando, bem como as datas na qual fizeram os contactos.
+Uma agência de detetives tem a trabalhar para si dez investigadores, cada um deles associado a
+uma área de investigação específica (crime, fraude, rapto, etc.). Para trabalharem na agência,
+os investigadores têm que indicar o seu nome completo, a sua data de nascimento, o número da sua
+cédula profissional e, pelo menos, dois endereços de email e dois números de telefone. Os casos
+que são entregues à agência para investigação são distribuídos pelos vários detetives, de acordo
+com a sua área de investigação. Quando iniciam o seu trabalho, no âmbito de um dado caso, os
+investigadores criam um dossier de investigação específico, atribuindo-lhe um número único, uma
+data de criação, o nome da entidade que requereu a investigação, o número de dias que têm para o
+resolver e o seu número de investigador. À medida que vão trabalhando num dado processo, os
+investigadores vão registando tudo aquilo que vão realizando, introduzindo no dossier do
+processo, para cada uma das atividades realizadas, a data, a hora e a sua descrição. Além disso,
+registam também, todos os contactos realizados, isto é, os nomes das pessoas com que foram
+falando, bem como as datas na qual fizeram os contactos.
 ```
 
 ## 1) Definição do Sistema
@@ -17,6 +29,7 @@ Uma agência de detetives tem a trabalhar para si dez investigadores, cada um de
 ### - Requisitos de DESCRIÇÃO
 
 __RD1__ - Os investigadores, para que possam trabalhar na agência, têm de indicar o seu nome completo, a sua data de nascimento, o número da sua cédula profissional e, pelo menos, dois endereços de email e dois números de telefone.
+
 __RD2__ - 
 
 ### - Requisitos de MANIPULAÇÃO
