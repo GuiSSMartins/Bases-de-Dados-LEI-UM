@@ -26,6 +26,9 @@ __1__ -
 
 ## 4) Modelo Lógico
 
+Atenção: As chaves __Primárias__ devem ser as 1ª a identificar dentro de cada tabela, enquanto que
+         as chaves __Estrageiras__ devem ser as últimas.
+
 ## 5) Implementação física da Base de Dados
 ### (para 2 entidades e um relacionamento entre elas)
 
@@ -33,6 +36,7 @@ __1__ -
 CREATE DATABASE IF NOT EXISTS 'modelo';
 
 USE DATABASE 'modelo';
+
 
 CREATE TABLE IF NOT EXISTS  '' (
   
