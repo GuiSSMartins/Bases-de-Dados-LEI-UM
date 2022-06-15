@@ -22,6 +22,10 @@ __1__ -
 ```sql
 CREATE DATABASE bd IF NOT EXISTS;
 
-CREATE TABLE 
+CREATE TABLE      IF NOT EXISTS (
+  
+  
+  
+  )
 ``` 
 
