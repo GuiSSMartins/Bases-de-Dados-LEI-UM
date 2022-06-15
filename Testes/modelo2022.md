@@ -30,9 +30,11 @@ __1__ -
 ### (para 2 entidades e um relacionamento entre elas)
 
 ```sql
-CREATE DATABASE bd IF NOT EXISTS;
+CREATE DATABASE IF NOT EXISTS 'modelo';
 
-CREATE TABLE      IF NOT EXISTS (
+USE DATABASE 'modelo';
+
+CREATE TABLE IF NOT EXISTS  '' (
   
   
   
