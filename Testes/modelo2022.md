@@ -12,7 +12,8 @@
 
 ### - Requisitos de DESCRIÇÃO
 
-__1__ - 
+__RD1__ - Os investigadores devem ser registados com o seu nome completo, a sua data de nascimento, o número da sua cédula profissional e, pelo menos, dois endereços de email e dois números de telefone.
+__RD2__ - 
 
 ### - Requisitos de MANIPULAÇÃO
 
