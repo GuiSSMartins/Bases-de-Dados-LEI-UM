@@ -10,6 +10,16 @@
 
 ## 2) Levantamento dos Requisitos
 
+### - Requisitos de DESCRIÇÃO
+
+__1__ - 
+
+### - Requisitos de MANIPULAÇÃO
+
+__1__ - 
+
+### - Requisitos de CONTROLO
+
 __1__ - 
 
 ## 3) Modelo Conceptual
