@@ -88,9 +88,11 @@ CREATE TABLE IF NOT EXISTS Investigador (
   Nome VARCHAR(100) NOT NULL,
   
   
-  PRIMARY KEY (Num_cedula_profissional)
+  PRIMARY KEY (Num_cedula_profissional),
   FOREIGN KEY ()        REFERENCES
 );
+
+CREATE TABLE IF NOT EXISTS
 ``` 
 
 ## 6) Povoamento e exploração da Base de Dados
