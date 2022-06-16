@@ -71,7 +71,7 @@ Atenção: As chaves __Primárias__ devem ser as 1ª a identificar dentro de cad
 ## 5) Implementação física da Base de Dados
 __(para 2 entidades e um relacionamento entre elas)__
 
-```sql
+```mysql
 CREATE DATABASE IF NOT EXISTS Modelo;
 
 USE Modelo;
@@ -81,8 +81,9 @@ CREATE TABLE IF NOT EXISTS Investigador (
   Nome VARCHAR(100) NOT NULL,
   
   
-  PRIMARY KEY
-  )
+  PRIMARY KEY (Num_cedula_profissional)
+  FOREIGN KEY ()        REFERENCES
+);
 ``` 
 
 ## 6) Povoamento e exploração da Base de Dados
