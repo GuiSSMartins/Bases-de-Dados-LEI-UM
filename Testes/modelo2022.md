@@ -72,15 +72,16 @@ Atenção: As chaves __Primárias__ devem ser as 1ª a identificar dentro de cad
 __(para 2 entidades e um relacionamento entre elas)__
 
 ```sql
-CREATE DATABASE IF NOT EXISTS 'modelo';
+CREATE DATABASE IF NOT EXISTS Modelo;
 
-USE DATABASE 'modelo';
+USE Modelo;
 
--- comentario
-CREATE TABLE IF NOT EXISTS 'investigador' (
+CREATE TABLE IF NOT EXISTS Investigador (
+  Num_cedula_profissional INT NOT NULL, -- chave primária
+  Nome VARCHAR(100) NOT NULL,
   
   
-  
+  PRIMARY KEY
   )
 ``` 
 
