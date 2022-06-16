@@ -20,8 +20,7 @@ falando, bem como as datas na qual fizeram os contactos. (...)
 
 __NOTA:__ Não é pedido no teste para o fazer, é apenas uma forma de organizar os dados antes de iniciar a resolução dos exercícios!
 
-- __Investigador__ : nome completo, data de nascimento, nº da cédula profissional (chave primária)
-- __Área__ :
+- __Investigador__ : nome completo, data de nascimento, nº da cédula profissional (chave primária), pelo menos 2 email e 2 nºs de telefone, nome da área
 - __Dossier__ : número único (chave primária), data de criação, nome da entidade que requeriu a investigação, nº de dias que têm para o resolver, nº de investigador (chave estrangeira), (chaves estrangeiras das várias atividades), (chaves estrangeiras das pessoas contactadas)
 - __Atividade__ : data, hora, descrição
 - __Pessoa contactada__ : nome da pessoa, data do contacto
@@ -50,7 +49,7 @@ __RD2__ - Cada área de investigação deve ser identificada (crime, fraude, rap
 
 __RD3__ - À medida que vão trabalhando num dado processo, os investigadores vão introduzindo no dossier do processo, para cada uma das atividades realizadas, a data, a hora e a sua descrição.
 
-__RD4__ -
+__RD4__ - Também à medida que vão trabalhando num dado processo, os investigadores têm de registar no dossier todos os contactos realizados, isto é, os nomes das pessoas com que foram falando, bem como as datas na qual fizeram os contactos.
 
 # (_POR CONCLUIR_)
 
@@ -86,6 +85,7 @@ USE Modelo;
 CREATE TABLE IF NOT EXISTS Investigador (
   Num_cedula_profissional INT NOT NULL, -- chave primária
   Nome VARCHAR(100) NOT NULL,
+  Data_nascimento DATE NOT NULL,
   
   
   PRIMARY KEY (Num_cedula_profissional),
