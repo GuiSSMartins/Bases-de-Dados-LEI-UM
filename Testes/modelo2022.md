@@ -32,8 +32,12 @@ __NOTA:__ Não é pedido no teste para o fazer, é apenas uma forma de organizar
 Uma agência de detetives tem a trabalhar para si dez investigadores, cada um deles associado a uma área de investigação específica. Os casos que são entregues à agência para investigação são distribuídos pelos vários detetives, de acordo com a sua área de investigação.
 
 ### - FUNDAMENTAÇÃO
+(Não especificada no enunciado) 
+
+__Possível "porquê" da criação desta base de dados__: As bases de dados são essenciais para o bom funcionamento de qualquer organização. Por isso, para que a agência de investigadores consiga organizar os vários pedidos que recebe de forma é preciso definir e modelar a estrtutura de dados. 
 
 ### - VIABILIDADE
+(Não especificada no enunciado)
 
 ## 2) Levantamento dos Requisitos
 
