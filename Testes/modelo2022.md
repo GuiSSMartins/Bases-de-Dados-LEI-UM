@@ -21,6 +21,7 @@ falando, bem como as datas na qual fizeram os contactos. (...)
 __NOTA:__ Não é pedido no teste para o fazer, é apenas uma forma de organizar os dados antes de iniciar a resolução dos exercícios!
 
 - __Investigador__ : nome completo, data de nascimento, nº da cédula profissional (chave primária)
+- __Área__ :
 - __Dossier__ : número único (chave primária), data de criação, nome da entidade que requeriu a investigação, nº de dias que têm para o resolver, nº de investigador (chave estrangeira), (chaves estrangeiras das várias atividades), (chaves estrangeiras das pessoas contactadas)
 - __Atividade__ : data, hora, descrição
 - __Pessoa contactada__ : nome da pessoa, data do contacto
@@ -32,30 +33,36 @@ __NOTA:__ Não é pedido no teste para o fazer, é apenas uma forma de organizar
 Uma agência de detetives tem a trabalhar para si dez investigadores, cada um deles associado a uma área de investigação específica. Os casos que são entregues à agência para investigação são distribuídos pelos vários detetives, de acordo com a sua área de investigação.
 
 ### - FUNDAMENTAÇÃO
-(Não especificada no enunciado) 
+(Não especificada explicitamente no enunciado) 
 
 __Possível "porquê" da criação desta base de dados__: As bases de dados são essenciais para o bom funcionamento de qualquer organização. Por isso, para que a agência de investigadores consiga organizar os vários pedidos que recebe de forma é preciso definir e modelar a estrtutura de dados. 
 
 ### - VIABILIDADE
-(Não especificada no enunciado)
+(Não especificada explicitamente no enunciado)
 
 ## 2) Levantamento dos Requisitos
 
 ### - Requisitos de DESCRIÇÃO
 
-__RD1__ - Os investigadores, para que possam trabalhar na agência, têm de indicar o seu nome completo, a sua data de nascimento, o número da sua cédula profissional e, pelo menos, dois endereços de email e dois números de telefone.
+__RD1__ - Os investigadores (para que possam trabalhar na agência) têm de indicar o seu nome completo, a sua data de nascimento, o número da sua cédula profissional e, pelo menos, dois endereços de email e dois números de telefone.
 
 __RD2__ - Cada área de investigação deve ser identificada (crime, fraude, rapto, etc.).
 
 __RD3__ - À medida que vão trabalhando num dado processo, os investigadores vão introduzindo no dossier do processo, para cada uma das atividades realizadas, a data, a hora e a sua descrição.
 
+__RD4__ -
+
+# (_POR CONCLUIR_)
+
 ### - Requisitos de MANIPULAÇÃO
 
-__RM1__ - 
+__RM1__ - Os casos entregues à agência são distribuídos pelos vários agentes, de acordo com a sua área.
+
+__RM2__ - Quando iniciam o seu trabalho, no âmbito de um dado caso, os investigadores criam um dossier de investigação específico.
 
 ### - Requisitos de CONTROLO
 
-__RC1__ - 
+__RC1__ - Os investigadores vão registando tudo aquilo que vão realizando.
 
 ## 3) Modelo Conceptual
 
