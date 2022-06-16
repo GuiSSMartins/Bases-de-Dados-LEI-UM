@@ -20,8 +20,10 @@ falando, bem como as datas na qual fizeram os contactos. (...)
 
 __NOTA:__ Não é pedido no teste para o fazer, é apenas uma forma de organizar os dados antes de iniciar a resolução dos exercícios!
 
-- __Investigador__ : nome completo, data de nascimento, nº da cédulo profissional (chave primária)
-- __Dossier__ : número único, data de criação, nome da entidade, (chaves estrangeiras das várias atividades 
+- __Investigador__ : nome completo, data de nascimento, nº da cédula profissional (chave primária)
+- __Dossier__ : número único (chave primária), data de criação, nome da entidade que requeriu a investigação, nº de dias que têm para o resolver, nº de investigador (chave estrangeira), (chaves estrangeiras das várias atividades), (chaves estrangeiras das pessoas contactadas)
+- __Atividade__ : data, hora, descrição
+- __Pessoa contactada__ : nome da pessoa, data do contacto
 
 ## 1) Definição do Sistema
 
@@ -41,7 +43,7 @@ __RD1__ - Os investigadores, para que possam trabalhar na agência, têm de indi
 
 __RD2__ - Cada área de investigação deve ser identificada (crime, fraude, rapto, etc.).
 
-__RD3__ - 
+__RD3__ - À medida que vão trabalhando num dado processo, os investigadores vão introduzindo no dossier do processo, para cada uma das atividades realizadas, a data, a hora e a sua descrição.
 
 ### - Requisitos de MANIPULAÇÃO
 
@@ -70,6 +72,7 @@ CREATE DATABASE IF NOT EXISTS 'modelo';
 
 USE DATABASE 'modelo';
 
+-- comentario
 CREATE TABLE IF NOT EXISTS 'investigador' (
   
   
