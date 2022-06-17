@@ -83,17 +83,27 @@ CREATE DATABASE IF NOT EXISTS Modelo;
 USE Modelo;
 
 CREATE TABLE IF NOT EXISTS Investigador (
-  Num_cedula_profissional INT NOT NULL, -- chave primária
+  Num_cedula_profissional INT NOT NULL, -- chave Primária
   Nome VARCHAR(100) NOT NULL,
   Data_nascimento DATE NOT NULL,
-  
-  
-  PRIMARY KEY (Num_cedula_profissional),
-  FOREIGN KEY ()        REFERENCES
+  Email VARCHAR(100) NOT NULL,
+  Telefone VARCHAR(9) NOT NULL,
+  PRIMARY KEY (Num_cedula_profissional)
 );
 
-CREATE TABLE IF NOT EXISTS
+CREATE TABLE IF NOT EXISTS Dossier (
+  Numero_dossier INT NOT NULL,
+  Data_criacao DATE NOT NULL,
+  
+  -- chave Estrangeira
+  FOREIGN KEY (Num_investigador)
+    REFERENCES () ()
+);
 ``` 
+# _ATENÇÃO_
+```mysql
+
+```
 
 ## 6) Povoamento e exploração da Base de Dados
 __(povoamento de duas tabelas que estejam relacionadas entre si)__
