@@ -77,6 +77,14 @@ Atenção: As chaves __Primárias__ devem ser as 1ª a identificar dentro de cad
 ## 5) Implementação física da Base de Dados
 __(para 2 entidades e um relacionamento entre elas)__
 
+### Tipos de dados que podemos utilizar:
+- INT ou INTEGER : valores inteiros
+- FLOAT ou REAL: valor decimais
+- VARCHAR(n) : 
+- DATE : datas com estrutura YYYY-MM-DD
+- TIME :
+- 
+
 ```mysql
 CREATE DATABASE IF NOT EXISTS Modelo;
 
@@ -100,10 +108,11 @@ CREATE TABLE IF NOT EXISTS Dossier (
     REFERENCES () ()
 );
 ``` 
-# _ATENÇÃO_
-```mysql
-
-```
 
 ## 6) Povoamento e exploração da Base de Dados
-__(povoamento de duas tabelas que estejam relacionadas entre si)__
+
+### a) Povoamento da BD (de duas tabelas que estejam relacionadas entre si)
+
+Vamos fazer para as tabelas correspondentes às 
+
+### b) 
