@@ -82,10 +82,10 @@ __(para 2 entidades e um relacionamento entre elas)__
 - __FLOAT__ ou __REAL__ : valor decimais
 - __VARCHAR(n)__ : string com 'n' caracteres
 - __TEXT__ : estrutura de dados para Textos GRANDES
-- DATE : datas com estrutura YYYY-MM-DD
-- TIME : horas com 
-- DATETIME
-- 
+- __DATE__ : datas com formato YYYY-MM-DD
+- __TIME__ : horas com formato hh:mm:ss
+- __DATETIME__ : formato YYYY-MM-DD hh:mm:ss
+- __BIT__ e __BOOLEAN__ : 0 -> falso; >0 ->
 
 ```mysql
 CREATE DATABASE IF NOT EXISTS Modelo;
@@ -115,6 +115,10 @@ CREATE TABLE IF NOT EXISTS Dossier (
 
 ### a) Povoamento da BD (de duas tabelas que estejam relacionadas entre si)
 
-Vamos fazer para as tabelas correspondentes às 
+Vamos fazer para as tabelas correspondentes: _Investigador_ e _Dossier_
+
+```mysql
+
+```
 
 ### b) 
