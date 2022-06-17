@@ -93,21 +93,21 @@ CREATE DATABASE IF NOT EXISTS Modelo;
 USE Modelo;
 
 CREATE TABLE IF NOT EXISTS Investigador (
-  Num_cedula_profissional INT NOT NULL, -- chave Primária
-  Nome VARCHAR(100) NOT NULL,
-  Data_nascimento DATE NOT NULL,
-  Email VARCHAR(100) NOT NULL,
-  Telefone VARCHAR(9) NOT NULL,
-  PRIMARY KEY (Num_cedula_profissional)
+   Num_cedula_profissional INT NOT NULL, -- chave Primária
+   Nome VARCHAR(100) NOT NULL,
+   Data_nascimento DATE NOT NULL,
+   Email VARCHAR(100) NOT NULL,
+   Telefone VARCHAR(9) NOT NULL,
+      PRIMARY KEY (Num_cedula_profissional)
 );
 
 CREATE TABLE IF NOT EXISTS Dossier (
-  Numero_dossier INT NOT NULL,
-  Data_criacao DATE NOT NULL,
-  
-  -- chave Estrangeira
-  FOREIGN KEY (Num_investigador)
-    REFERENCES () ()
+   Numero_dossier INT NOT NULL,
+   Data_criacao DATE NOT NULL,
+   
+   Num_investigador INT NOT NULL, -- chave Estrangeira
+      FOREIGN KEY (Num_investigador)
+         REFERENCES Dossier()
 );
 ``` 
 
@@ -118,7 +118,13 @@ CREATE TABLE IF NOT EXISTS Dossier (
 Vamos fazer para as tabelas correspondentes: _Investigador_ e _Dossier_
 
 ```mysql
-
+INSERT INTO Investigador
+   (Num_cedula_profissional, Nome, Data_nascimento, Email, Telefone)
+   VALUES (20, 'Mateus', 1990-02-05, 'matsql@bd.pt', '00000009');
 ```
 
-### b) 
+### b) Apresentar duas queries SQL (uma que combine dados entre duas ou mais tabelas e outra que agrupe os dados de uma tabela e apresente os resultados ordenados, segundo critérios arbitrários)
+
+_1ª Query_: 
+
+_2ª Query_ :
