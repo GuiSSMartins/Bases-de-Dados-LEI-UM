@@ -37,12 +37,16 @@ Uma agência de detetives tem a trabalhar para si dez investigadores, cada um de
 ### - FUNDAMENTAÇÃO
 (Não especificada explicitamente no enunciado) 
 
-__Possível "porquê" da criação desta base de dados__: As bases de dados são essenciais para o bom funcionamento de qualquer organização, especialmente numa agência de detetives, onde uma boa organização e segurança dos dados são fundamentais. Por isso, para que a agência de detetives consiga organizar os vários pedidos que recebe e geri-los para os seus investigadores deve ser feita a construção de uma base de dados. 
+| __Possível "porquê" da criação desta base de dados__ | : As bases de dados são essenciais para o bom funcionamento de qualquer organização, especialmente numa agência de detetives, onde uma boa organização, confidencialidade e segurança dos dados são fundamentais. Por isso, para que a agência de detetives consiga organizar os vários pedidos que recebe e geri-los para os seus investigadores, deve ser feita a construção de uma base de dados. 
 
 ### - VIABILIDADE
 (Não especificada explicitamente no enunciado)
 
-__Possível resposta__: 
+| __Possível resposta__ | : Com a construção desta base de dados, a agência de detetives poderá 
+
+- organizar com maior eficácia os vários casos que recebe
+- entregar os casos aos investigadores de áreas mais adequadas (???)
+- aceder aos dados dos vários casos/processos de uma forma mais direta e organizada
 
 ## 2) Levantamento dos Requisitos
 
@@ -62,11 +66,11 @@ __RD4__ - Também à medida que vão trabalhando num dado processo, os investiga
 
 __RM1__ - Os casos entregues à agência são distribuídos pelos vários agentes, de acordo com a sua área.
 
-__RM2__ - Quando iniciam o seu trabalho, no âmbito de um dado caso, os investigadores criam um dossier de investigação específico.
+__RM2__ - Quando iniciam o seu trabalho, no âmbito de um dado caso, os investigadores têm de criar um dossier de investigação específico.
 
 ### - Requisitos de CONTROLO
 
-__RC1__ - Os investigadores vão registando tudo aquilo que vão realizando.
+__RC1__ - Os investigadores têm de ir registando tudo aquilo que vão realizando.
 
 ## 3) Modelo Conceptual
 
