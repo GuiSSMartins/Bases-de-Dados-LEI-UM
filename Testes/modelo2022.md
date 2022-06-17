@@ -1,8 +1,8 @@
 # | Teste MODELO 2022 |
 
-## _AVISO_: 
-Não me responsabilizo por possíveis erros!
+### _AVISO_: Não me responsabilizo por possíveis erros!
 
+## TEXTO do Problema
 ```
 Uma agência de detetives tem a trabalhar para si dez investigadores, cada um deles associado a
 uma área de investigação específica (crime, fraude, rapto, etc.). Para trabalharem na agência,
