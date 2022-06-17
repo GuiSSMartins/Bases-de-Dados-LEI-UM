@@ -1,5 +1,8 @@
 # | Teste MODELO 2022 |
 
+## _AVISO_: 
+Não me responsabilizo por possíveis erros!
+
 ```
 Uma agência de detetives tem a trabalhar para si dez investigadores, cada um deles associado a
 uma área de investigação específica (crime, fraude, rapto, etc.). Para trabalharem na agência,
@@ -34,10 +37,12 @@ Uma agência de detetives tem a trabalhar para si dez investigadores, cada um de
 ### - FUNDAMENTAÇÃO
 (Não especificada explicitamente no enunciado) 
 
-__Possível "porquê" da criação desta base de dados__: As bases de dados são essenciais para o bom funcionamento de qualquer organização. Por isso, para que a agência de investigadores consiga organizar os vários pedidos que recebe de forma é preciso definir e modelar a estrtutura de dados. 
+__Possível "porquê" da criação desta base de dados__: As bases de dados são essenciais para o bom funcionamento de qualquer organização, especialmente numa agência de detetives, onde uma boa organização e segurança dos dados são fundamentais. Por isso, para que a agência de detetives consiga organizar os vários pedidos que recebe e geri-los para os seus investigadores deve ser feita a construção de uma base de dados. 
 
 ### - VIABILIDADE
 (Não especificada explicitamente no enunciado)
+
+__Possível resposta__: 
 
 ## 2) Levantamento dos Requisitos
 
