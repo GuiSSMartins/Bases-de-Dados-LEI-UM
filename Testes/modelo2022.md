@@ -77,12 +77,14 @@ Atenção: As chaves __Primárias__ devem ser as 1ª a identificar dentro de cad
 ## 5) Implementação física da Base de Dados
 __(para 2 entidades e um relacionamento entre elas)__
 
-### Tipos de dados que podemos utilizar:
-- INT ou INTEGER : valores inteiros
-- FLOAT ou REAL: valor decimais
-- VARCHAR(n) : 
+### | _Tipos de dados que podemos utilizar_ |
+- __INT__ ou __INTEGER__ : valores inteiros
+- __FLOAT__ ou __REAL__ : valor decimais
+- __VARCHAR(n)__ : string com 'n' caracteres
+- __TEXT__ : estrutura de dados para Textos GRANDES
 - DATE : datas com estrutura YYYY-MM-DD
-- TIME :
+- TIME : horas com 
+- DATETIME
 - 
 
 ```mysql
