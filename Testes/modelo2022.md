@@ -65,7 +65,7 @@ __RC1__ - Os investigadores vão registando tudo aquilo que vão realizando.
 
 ## 3) Modelo Conceptual
 
-# (POR FAZER)
+![alt text](https://github.com/GuiSSMartins/Bases-de-Dados-LEI-UM/blob/main/Testes/modelo%20conceptual.PNG?raw=true)
 
 ## 4) Modelo Lógico
 
