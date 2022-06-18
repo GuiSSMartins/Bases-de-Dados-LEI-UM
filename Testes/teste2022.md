@@ -24,7 +24,7 @@ __Possível "porquê" da criação desta base de dados__: As bases de dados são
 
 ### - Requisitos de DESCRIÇÃO
 
-__RD1__ -
+__RD1__ - Para que um cliente possa enviar uma encomenda, o cliente tem de estar registado na base de dados da HDR, sendo que devem estar os seguintes dados: número, nome
 
 ### - Requisitos de MANIPULAÇÃO
 
@@ -54,9 +54,9 @@ CREATE DATABASE IF NOT EXISTS 'modelo';
 USE DATABASE 'modelo';
 
 -- comentario
-CREATE TABLE IF NOT EXISTS 'investigador' (
-  
-  
-  
-  )
+CREATE TABLE IF NOT EXISTS Investigador (
+   
+   
+   
+);
 ``` 
