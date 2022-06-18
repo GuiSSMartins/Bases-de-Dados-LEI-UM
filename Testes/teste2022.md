@@ -49,14 +49,5 @@ Atenção: As chaves __Primárias__ devem ser as 1ª a identificar dentro de cad
 __(para 2 entidades e um relacionamento entre elas)__
 
 ```sql
-CREATE DATABASE IF NOT EXISTS 'modelo';
 
-USE DATABASE 'modelo';
-
--- comentario
-CREATE TABLE IF NOT EXISTS Investigador (
-   
-   
-   
-);
 ``` 
