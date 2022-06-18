@@ -10,7 +10,7 @@ __NOTA:__ Não é pedido no teste para o fazer, é apenas uma forma de organizar
 
 ### - CONTEXTUALIZAÇÃO
 
-A HDR (_Hand-Delivery Requests_) é uma empresa que se dedica em exclusivo à entrega de encomendas pessoais.
+A HDR (_Hand-Delivery Requests_) é uma empresa que se dedica _em exclusivo_ à entrega de encomendas pessoais. Os seus clientes entregam à HDR as suas encomendas 
 
 ### - FUNDAMENTAÇÃO
 (Não especificada no enunciado) 
@@ -32,7 +32,7 @@ __RM1__ -
 
 ### - Requisitos de CONTROLO
 
-__RC1__ - 
+__RC1__ - Para que um cliente possa enviar uma encomenda (ou seja, para a HDR fazer uma entrega), o cliente tem de estar registado com os dados completos (ver _RD1_) na base de dados da HDR. SENÃO, a encomenda 
 
 ## 3) Modelo Conceptual
 
