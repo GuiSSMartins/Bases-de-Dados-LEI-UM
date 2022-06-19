@@ -4,13 +4,11 @@
 
 __NOTA:__ Não é pedido no teste para o fazer, é apenas uma forma de organizar os dados antes de iniciar a resolução dos exercícios!
 
-- __Investigador__ 
-
 ## 1) Definição do Sistema
 
 ### - CONTEXTUALIZAÇÃO
 
-A HDR (_Hand-Delivery Requests_) é uma empresa que se dedica _em exclusivo_ à entrega de encomendas pessoais. Os seus clientes entregam à HDR as suas encomendas 
+A HDR (_Hand-Delivery Requests_) é uma empresa que se dedica _em exclusivo_ à entrega de encomendas pessoais. Os seus clientes entregam à HDR as encomendas que querem que sejam entregues num determiando lugar, num determinado momento e a uma determianda pessoa.
 
 ### - FUNDAMENTAÇÃO
 (Não especificada no enunciado) 
@@ -28,11 +26,13 @@ __RD1__ - Para que um cliente possa enviar uma encomenda, o cliente tem de estar
 
 ### - Requisitos de MANIPULAÇÃO
 
-__RM1__ - 
+__RM1__ - Quando um funcionário aprova um pedido, o funcionário tem que lhe atribuir um número  específico, prrenche a data de aprovação
 
 ### - Requisitos de CONTROLO
 
-__RC1__ - Para que um cliente possa enviar uma encomenda (ou seja, para a HDR fazer uma entrega), o cliente tem de estar registado com os dados completos (ver _RD1_) na base de dados da HDR. SENÃO, a encomenda 
+__RC1__ - Para que um cliente possa enviar uma encomenda (ou seja, para a HDR fazer uma entrega), o cliente tem de estar registado com os dados completos (ver _RD1_) na base de dados da HDR. SENÃO, o seu pedido de entrega não será aceite pela empresa.
+
+__RC2__ - (Ver _RM1_) O funcionário deve ter acesso à base de dados para puder inserir os dados necessários, caso 
 
 ## 3) Modelo Conceptual
 
@@ -48,6 +48,6 @@ Atenção: As chaves __Primárias__ devem ser as 1ª a identificar dentro de cad
 ## 5) Implementação física da Base de Dados
 __(para 2 entidades e um relacionamento entre elas)__
 
-```sql
+```mysql
 
 ``` 
