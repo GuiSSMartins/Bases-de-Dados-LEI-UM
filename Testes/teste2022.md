@@ -49,5 +49,33 @@ Atenção: As chaves __Primárias__ devem ser as 1ª a identificar dentro de cad
 __(para 2 entidades e um relacionamento entre elas)__
 
 ```mysql
+CREATE DATABASE IF NOT NULL hdr;
+
+USE hdr;
+
+CREATE TABLE IF NOT EXISTS Encomenda (
+         Num_enc INT NOT NULL AUTOINCREMENT,
+         Descricao TEXT NOT NULL,
+         Custo_servico INT,
+         Data_aprovacao DATE,
+         Id_latitude INT,
+         Id_longitude INT,
+         
+         PRIMARY KEY (Num_enc),
+         FOREIGN KEY (Id_latitude, Id_longitude)
+                  REFERENCES Lugar(Id_latitude, Id_longitude)
+);
+
+CREATE TABLE IF NOT EXISTS Lugar (
+         Id_latitude INT NOT NULL,
+         Id_longitude INT NOT NULL,
+         Latitude VARCHAR(30) NOT NULL,
+         Longitude VARCHAR(30) NOT NULL,
+         Rua TEXT NOT NULL,
+         Local TEXT NOT NULL,
+         
+                  PRIMARY KEY(Id_latitude, Id_longitude)
+);
+
 
 ``` 
