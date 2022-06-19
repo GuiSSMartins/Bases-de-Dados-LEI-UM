@@ -134,6 +134,14 @@ INSERT INTO Investigador
 
 ### b) Apresentar duas queries SQL (uma que combine dados entre duas ou mais tabelas e outra que agrupe os dados de uma tabela e apresente os resultados ordenados, segundo critérios arbitrários)
 
-_1ª Query_: 
+_1ª Query_: Nº de investigadores dentro de cada área
+
+```mysql
+
+```
 
 _2ª Query_ :
+
+```mysql
+
+```
