@@ -134,14 +134,19 @@ INSERT INTO Investigador
 
 ### b) Apresentar duas queries SQL (uma que combine dados entre duas ou mais tabelas e outra que agrupe os dados de uma tabela e apresente os resultados ordenados, segundo critérios arbitrários)
 
-_1ª Query_: Nº de investigadores dentro de cada área
+_1ª Query_: Ordenar os investigadores por ordem alfabetica segundo a área
 
 ```mysql
-
+SELECT Investigador
+   FROM Investigador,
+   ORDER BY Area ASC;
 ```
 
-_2ª Query_ :
+_2ª Query_ : Investigadores com dossier com data superior a '2020-01-01'
 
 ```mysql
-
+SELECT Investigador.
+   FROM Investigador,
+   ON 
+   WHERE Dossier.Data > '2020-01-01';
 ```
