@@ -127,6 +127,8 @@ CREATE TABLE IF NOT EXISTS Dossier (
 Vamos fazer para as tabelas correspondentes: _Investigador_ e _Dossier_
 
 ```mysql
+INSERT INTO Modelo;
+
 INSERT INTO Investigador
    (Num_cedula_profissional, Nome, Data_nascimento, Email, Telefone)
    VALUES (20, 'Mateus', 1990-02-05, 'matsql@bd.pt', '00000009');
