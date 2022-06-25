@@ -14,3 +14,16 @@ ACTION, AGGREGATE, BEFORE, BOOLEAN, CASCADE, CASE, CONNECT, DELETE, CUBE, COLLAT
 - __Tempo e Datas__: DATE, TIME, TIMESTAMP, TIME WITH TIME ZONE, TIMESTAMP TIME WITH TIME ZONE
 - __Outros tipos__: BOOLEAN
 
+### DATABASES - Bases de Dados
+
+- __CREATE DATABASE__ – criação de uma base de dados de um sistema.
+- __DROP DATABASE__ – remoção de uma base de dados de um sistema.
+
+```mysql
+CREATE {DATABASE | SCHEMA} [IF NOT EXISTS] db_name
+  [create_option] ...
+  create_option: [DEFAULT] {
+  CHARACTER SET [=] charset_name
+  | COLLATE [=] collation_name
+  | ENCRYPTION [=] {'Y' | 'N'}}
+```
