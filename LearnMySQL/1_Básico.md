@@ -21,9 +21,25 @@ ACTION, AGGREGATE, BEFORE, BOOLEAN, CASCADE, CASE, CONNECT, DELETE, CUBE, COLLAT
 
 ```mysql
 CREATE {DATABASE | SCHEMA} [IF NOT EXISTS] db_name
-  [create_option] ...
-  create_option: [DEFAULT] {
-  CHARACTER SET [=] charset_name
-  | COLLATE [=] collation_name
-  | ENCRYPTION [=] {'Y' | 'N'}}
+    [create_option] ...
+    create_option: [DEFAULT] {
+    CHARACTER SET [=] charset_name
+    | COLLATE [=] collation_name
+    | ENCRYPTION [=] {'Y' | 'N'}}
+    
+DROP {DATABASE | SCHEMA} [IF EXISTS] db_name
+```
+
+Criação de uma base de dados  (“Sakila”) com opções de configuração
+```mysql
+CREATE DATABASE Sakila
+    DEFAULT CHARSET=utf8mb4
+    DEFAULT ENCRYPTION='N';
+```
+
+
+
+
+```mysql
+
 ```
