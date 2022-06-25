@@ -30,14 +30,34 @@ CREATE {DATABASE | SCHEMA} [IF NOT EXISTS] db_name
 DROP {DATABASE | SCHEMA} [IF EXISTS] db_name
 ```
 
-Criação de uma base de dados  (“Sakila”) com opções de configuração
+Criação de uma base de dados (“Sakila”) com opções de configuração
 ```mysql
 CREATE DATABASE Sakila
     DEFAULT CHARSET=utf8mb4
     DEFAULT ENCRYPTION='N';
 ```
 
+Remoção de uma base de dados (“Sakila”)
+```mysql
+DROP DATABASE Sakila;
+```
 
+
+
+
+```mysql
+CREATE [TEMPORARY] TABLE [IF NOT EXISTS] tbl_name
+    (create_definition,...)
+    [table_options]
+    [partition_options]
+    column_definition: { data_type [NOT NULL | NULL] [DEFAULT
+    {literal | (expr)} ] [VISIBLE | INVISIBLE] [AUTO_INCREMENT]
+    [UNIQUE [KEY]] [[PRIMARY] KEY] [COMMENT 'string'] [COLLATE
+    collation_name] [COLUMN_FORMAT {FIXED | DYNAMIC |
+    DEFAULT}] [ENGINE_ATTRIBUTE [=] 'string']
+    [SECONDARY_ENGINE_ATTRIBUTE [=] 'string'] [STORAGE {DISK | MEMORY}]
+    (…)
+```
 
 
 ```mysql
