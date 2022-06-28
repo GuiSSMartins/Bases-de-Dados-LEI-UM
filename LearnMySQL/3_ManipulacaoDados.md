@@ -29,7 +29,7 @@ INSERT INTO Producers
     VALUES ('22','Anne','Carson','F');
 ```
 
-Inserção simultânea de vários registos:
+Inserção __simultânea__ de vários registos:
 ```mysql
 INSERT INTO Agents
     (Agent_Id, First_Name, Last_Name)
@@ -55,6 +55,12 @@ UPDATE [LOW_PRIORITY] [IGNORE] table_reference
 ```
 
 
+
+Modificação de __TODOS__ registos de uma tabela:
+```mysql
+UPDATE Agents
+    SET Business_Terms = NULL;
+```
 
 ```mysql
 
