@@ -2,11 +2,11 @@
 
 ## _NOTA_: Todo o código apresentado foi feito na linguagem _MySQL_.
 
-### Palavras Reservadas
+### || Palavras Reservadas ||
 
 ACTION, AGGREGATE, BEFORE, BOOLEAN, CASCADE, CASE, CONNECT, DELETE, CUBE, COLLATION, NUMERIC, LEVEL, DATA, DAY, OLD, ON, LOOP, MINUTE, SUM, WITH, SELECT, VALUE, USING, ROLE, USER, PUBLIC, SIZE, REFERENCES, OUTPUT, CATALOG, DROP, YEAR, ...
 
-### Tipos de dados 
+### || Tipos de dados || 
 
 - __Números inteiros__: INT[EGER], SMALLINT, NUMERIC [(p[,s])], DECIMAL[(p[,s])]
 - __Números reais__: FLOAT, REAL, DOUBLE PRECISION
@@ -16,7 +16,7 @@ ACTION, AGGREGATE, BEFORE, BOOLEAN, CASCADE, CASE, CONNECT, DELETE, CUBE, COLLAT
 - __Tempo e Datas__: DATE, TIME, TIMESTAMP, TIME WITH TIME ZONE, TIMESTAMP TIME WITH TIME ZONE
 - __Outros tipos__: BOOLEAN
 
-### DATABASES - Bases de Dados
+### || DATABASES - Bases de Dados ||
 
 - __CREATE DATABASE__ – criação de uma base de dados de um sistema.
 - __DROP DATABASE__ – remoção de uma base de dados de um sistema.
@@ -44,7 +44,7 @@ Remoção de uma base de dados (“Sakila”)
 DROP DATABASE Sakila;
 ```
 
-### TABLE - Tabela
+### || TABLE - Tabela ||
 
 - __CREATE TABLE__ – criação do esquema de uma tabela na base de dados.
 - __ALTER TABLE__ – alteração do esquema de uma tabela da base de dados.
@@ -65,7 +65,7 @@ CREATE [TEMPORARY] TABLE [IF NOT EXISTS] tbl_name
     (…)
 ```
 
-#### Definição das Chaves PRIMÁRIAS e ESTRANGEIRAS + Técnicas de auxílio
+#### || Definição das Chaves PRIMÁRIAS e ESTRANGEIRAS + Técnicas de auxílio ||
 
 - __NOT NULL__: obrigatório preencher coluna com algum valor.
 - __AUTO_INCREMENT__
@@ -96,7 +96,7 @@ ALTER TABLE Promotions
 
 
 
-### Remoção de Tabelas (DROP TABLE)
+### || Remoção de Tabelas (DROP TABLE) ||
 
 Quando se aplica sobre a base de dados uma instrução de remoção de uma tabela, além de se remover da base de dados a sua definição também se removem todos:
 - Registos; 
