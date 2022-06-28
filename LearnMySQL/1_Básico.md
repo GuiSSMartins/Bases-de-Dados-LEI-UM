@@ -43,7 +43,7 @@ DROP DATABASE Sakila;
 ```
 
 
-
+------------------------------------------------------------------------
 
 ```mysql
 CREATE [TEMPORARY] TABLE [IF NOT EXISTS] tbl_name
@@ -57,6 +57,13 @@ CREATE [TEMPORARY] TABLE [IF NOT EXISTS] tbl_name
     DEFAULT}] [ENGINE_ATTRIBUTE [=] 'string']
     [SECONDARY_ENGINE_ATTRIBUTE [=] 'string'] [STORAGE {DISK | MEMORY}]
     (…)
+```
+
+Criação de uma base de dados (“Sakila”) com opções de configuração
+```mysql
+CREATE DATABASE Sakila
+    DEFAULT CHARSET=utf8mb4   -- conjunto de caracteres
+    DEFAULT ENCRYPTION='N';   -- opção de cifragem
 ```
 
 
