@@ -15,11 +15,18 @@ INSERT [LOW_PRIORITY | DELAYED | HIGH_PRIORITY] [IGNORE]
     [ON DUPLICATE KEY UPDATE assignment_list]
     (…)
 ```
-
+Inserção de um registo numa tabela
 ```mysql
 INSERT INTO Producers
   (Producer_Id, First_Name, Last_Name, Gender, Country_Id,Date_Of_Birth, eMail, Facebook, Instagram, Notes)
   VALUES ('21','Jonh','Well-Done','M','103','1978-01-01','jonhw@email.com',NULL,NULL,NULL);
+```
+
+Inserção de um registo numa tabela, utilizando __apenas uma parte__ do seu esquema da tabela:
+```mysql
+INSERT INTO Producers
+    (Producer_Id, First_Name, Last_Name, Gender)
+    VALUES ('22','Anne','Carson','F');
 ```
 
 ### || Palavras Reservadas ||
