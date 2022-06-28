@@ -29,4 +29,35 @@ INSERT INTO Producers
     VALUES ('22','Anne','Carson','F');
 ```
 
+Inserção simultânea de vários registos:
+```mysql
+INSERT INTO Agents
+    (Agent_Id, First_Name, Last_Name)
+    VALUES
+        ('2','Ralf','Spencer'),
+        ('3','Anne','Lopez'),
+        ('4','Joseph','Pane');
+```
+
+
+```mysql
+UPDATE [LOW_PRIORITY] [IGNORE] table_reference
+    SET assignment_list
+    [WHERE where_condition]
+    [ORDER BY ...]
+    [LIMIT row_count]
+    value:
+        {expr | DEFAULT}
+    assignment:
+        col_name = value
+    assignment_list:
+        assignment [, assignment] ...
+```
+
+
+
+```mysql
+
+```
+
 ### || Palavras Reservadas ||
