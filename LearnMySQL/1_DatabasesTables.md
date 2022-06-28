@@ -1,4 +1,4 @@
-# 1 - Básico
+# 1 - Databases & Tables (Bases de dados & Tabelas)
 
 ## _NOTA_: Todo o código apresentado foi feito na linguagem _MySQL_.
 
