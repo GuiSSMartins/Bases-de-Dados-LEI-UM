@@ -39,6 +39,7 @@ INSERT INTO Agents
         ('4','Joseph','Pane');
 ```
 
+------------------------------------------------------------------------------------------------------
 
 ```mysql
 UPDATE [LOW_PRIORITY] [IGNORE] table_reference
