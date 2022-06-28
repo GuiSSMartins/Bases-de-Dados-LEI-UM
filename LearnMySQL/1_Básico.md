@@ -1,5 +1,7 @@
 # 1 - Básico
 
+__NOTA__:
+
 ### Palavras Reservadas
 
 ACTION, AGGREGATE, BEFORE, BOOLEAN, CASCADE, CASE, CONNECT, DELETE, CUBE, COLLATION, NUMERIC, LEVEL, DATA, DAY, OLD, ON, LOOP, MINUTE, SUM, WITH, SELECT, VALUE, USING, ROLE, USER, PUBLIC, SIZE, REFERENCES, OUTPUT, CATALOG, DROP, YEAR, ...
@@ -33,8 +35,8 @@ DROP {DATABASE | SCHEMA} [IF EXISTS] db_name
 Criação de uma base de dados (“Sakila”) com opções de configuração
 ```mysql
 CREATE DATABASE Sakila
-    DEFAULT CHARSET=utf8mb4
-    DEFAULT ENCRYPTION='N';
+    DEFAULT CHARSET=utf8mb4   -- conjunto de caracteres
+    DEFAULT ENCRYPTION='N';   -- opção de cifragem
 ```
 
 Remoção de uma base de dados (“Sakila”)
@@ -42,9 +44,13 @@ Remoção de uma base de dados (“Sakila”)
 DROP DATABASE Sakila;
 ```
 
+### TABLE - Tabela
 
-------------------------------------------------------------------------
+- __CREATE TABLE__ – criação do esquema de uma tabela na base de dados.
+- __ALTER TABLE__ – alteração do esquema de uma tabela da base de dados.
+- __DROP TABLE__ – remoção de uma tabela da base de dados.
 
+__ATENÇÃO__: Mesmo que a Tabela seja _TEMPORÁRIA_, é preciso fazer __DROP__ depois de a usarmos para o que queríamos! 
 ```mysql
 CREATE [TEMPORARY] TABLE [IF NOT EXISTS] tbl_name
     (create_definition,...)
@@ -59,13 +65,26 @@ CREATE [TEMPORARY] TABLE [IF NOT EXISTS] tbl_name
     (…)
 ```
 
-Criação de uma base de dados (“Sakila”) com opções de configuração
-```mysql
-CREATE DATABASE Sakila
-    DEFAULT CHARSET=utf8mb4   -- conjunto de caracteres
-    DEFAULT ENCRYPTION='N';   -- opção de cifragem
-```
+#### Definição das Chaves PRIMÁRIAS e ESTRANGEIRAS + Técnicas de auxílio
 
+- __NOT NULL__: obrigatório preencher coluna com algum valor.
+- __AUTO_INCREMENT__
+
+__ATENÇÃO__: As chaves Primárias (PRIMARY KEY) _não podem ser_ __negativas__!!!
+
+
+Criação de uma tabela com definição de chave primária e uma chave estrangeira:
+```mysql
+CREATE TABLE Promotions (
+    Promotion_Nr INT NOT NULL AUTO_INCREMENT,
+    Description VARCHAR(50) NOT NULL,
+    Initial_Date DATETIME,
+    Final_Date DATETIME,
+    Category_Id TINYINT UNSIGNED NOT NULL,
+        PRIMARY KEY (Promotion_Nr), -- Definição de chave primária
+        FOREIGN KEY (Category_Id)
+            REFERENCES Category (Category_Id));  -- 
+```
 
 ```mysql
 
