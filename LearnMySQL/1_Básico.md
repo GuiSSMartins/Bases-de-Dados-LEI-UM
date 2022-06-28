@@ -1,6 +1,6 @@
 # 1 - Básico
 
-__NOTA__:
+## _NOTA_: Todo o código apresentado foi feito na linguagem _MySQL_.
 
 ### Palavras Reservadas
 
