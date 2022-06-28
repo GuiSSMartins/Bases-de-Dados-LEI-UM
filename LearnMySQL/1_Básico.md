@@ -81,11 +81,15 @@ CREATE TABLE Promotions (
     Initial_Date DATETIME,
     Final_Date DATETIME,
     Category_Id TINYINT UNSIGNED NOT NULL,
-        PRIMARY KEY (Promotion_Nr), -- Definição de chave primária
+        PRIMARY KEY (Promotion_Nr),   -- Definição de chave primária
         FOREIGN KEY (Category_Id)
-            REFERENCES Category (Category_Id));  -- 
+            REFERENCES Category (Category_Id));   -- Definição da chave estrangeira
 ```
 
+Alteração da definição inicial da tabela anterior para introdução de uma chave estrangeira.
 ```mysql
-
+ALTER TABLE Promotions
+    ADD CONSTRAINT fkPromotionsCategories
+        FOREIGN KEY (Category_Id)           -- Definição da chave estrangeira
+        REFERENCES Category (Category_Id); 
 ```
