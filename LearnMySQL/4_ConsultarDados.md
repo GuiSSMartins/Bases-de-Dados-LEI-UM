@@ -2,6 +2,6 @@
 
 ## _NOTA_: Todo o código apresentado foi feito na linguagem _MySQL_.
 
-## _NOTA 2_: _Consultar_ é DIFERENTE de _Visualizar_ 
+### _NOTA 2_: _Consultar_ é DIFERENTE de _Visualizar_ 
 
 ### || SELECT ||
