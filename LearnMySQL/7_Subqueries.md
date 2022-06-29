@@ -1,7 +1,9 @@
+# 7 - Criação de Subqueries
+
+## _NOTA_: Todo o código apresentado foi feito na linguagem _MySQL_.
 
 
-
-## Funções de STRINGS (as mais importantes)
+### || Funções de STRINGS || (as mais importantes)
 
 - __CONCAT__ - Concatena duas ou mais strings numa só;
 - INSTR - Retorna a posição da primeira ocorrência de uma substring numa string;
@@ -19,7 +21,9 @@
 - FORMAT(N, D, locale) - Formata um número N para D casas decimais. O locale é um argumento opcional que determina os separadores de milhar e o agrupamento entre os separadores.
 - UPPER – Converte uma string para maiúsculas
 
-## ORDENAR Registos de COLUNAS (ORDER BY)
+-------------------------------------------------------------------------------------------
+
+### || ORDENAR Registos de COLUNAS (ORDER BY) ||
 
 ORDER BY permite que as linhas sejam apresentadas por _ordem_ __ascendente (ASC)__ ou __decrescente (DESC)__ de qualquer coluna ou combinação de colunas. 
 
