@@ -26,9 +26,13 @@ CREATE [TEMPORARY] TABLE [IF NOT EXISTS] tbl_name
 #### || Definição das Chaves PRIMÁRIAS e ESTRANGEIRAS + Técnicas de auxílio ||
 
 - __NOT NULL__: obrigatório preencher coluna com algum valor.
-- __AUTO_INCREMENT__
+- __AUTO_INCREMENT__: aumenat de avlor ao longo que avmos inserindo registos.
 
 __ATENÇÃO__: As chaves Primárias (PRIMARY KEY) _não podem ser_ __negativas__!!!
+
+__ATENÇÃO 2__: As chaves Primárias (PRIMARY KEY) podem conter duplas entradas!!!
+
+_EXEMPLO_: PRIMARY KEY (idAluno, nomeAluno);
 
 
 Criação de uma tabela com definição de chave primária e uma chave estrangeira:
