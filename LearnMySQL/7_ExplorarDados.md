@@ -1,7 +1,7 @@
 
 
 
-## Funções de Strings
+## Funções de STRINGS (as mais importantes)
 
 - __CONCAT__ - Concatena duas ou mais strings numa só;
 - INSTR - Retorna a posição da primeira ocorrência de uma substring numa string;
