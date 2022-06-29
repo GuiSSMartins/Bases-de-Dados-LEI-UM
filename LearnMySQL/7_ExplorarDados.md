@@ -18,3 +18,9 @@
 - FIND_IN_SET - Encontra uma string dentro de uma lista de strings separadas por vírgulas;
 - FORMAT(N, D, locale) - Formata um número N para D casas decimais. O locale é um argumento opcional que determina os separadores de milhar e o agrupamento entre os separadores.
 - UPPER – Converte uma string para maiúsculas
+
+## ORDENAR Registos de COLUNAS (ORDER BY)
+
+ORDER BY permite que as linhas sejam apresentadas por _ordem_ __ascendente (ASC)__ ou __decrescente (DESC)__ de qualquer coluna ou combinação de colunas. 
+
+__ATENÇÃO__: A cláusula ORDER BY deve ser sempre a __última cláusula__ da instrução SELECT.
