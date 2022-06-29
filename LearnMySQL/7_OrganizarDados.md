@@ -28,3 +28,21 @@
 ORDER BY permite que as linhas sejam apresentadas por _ordem_ __ascendente (ASC)__ ou __decrescente (DESC)__ de qualquer coluna ou combinação de colunas. 
 
 __ATENÇÃO__: A cláusula ORDER BY deve ser sempre a __última cláusula__ da instrução SELECT.
+
+
+-------------------------------------------------------------------------------------------
+
+### || AGRUPAR Registos de COLUNAS (GROUP BY) ||
+
+GROUP BY pode ser usada em diferentes contextos:
+
+- A) Uso em alternativa ao SELECT DISTINCT(<nome coluna>)
+  
+```mysql
+SELECT DISTINCT localidade FROM pacientes;
+SELECT localidade FROM pacientes GROUP BY localidade;
+```
+
+-
+-
+-
