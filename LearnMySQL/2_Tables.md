@@ -45,16 +45,4 @@ ALTER TABLE Promotions
         REFERENCES Category (Category_Id); 
 ```
 
-
-
-### || Remoção de Tabelas (DROP TABLE) ||
-
-Quando se aplica sobre a base de dados uma instrução de remoção de uma tabela, além de se remover da base de dados a sua definição também se removem todos:
-- Registos; 
-- Índices e gatilhos; 
-- Restrições (constraints); 
-- Privilégios; 
-- (…)
-
-
 __ATENÇÃO__: Caso uma tabela contenha uma chave estrangeira, esta só poderá ser removida da base de dados após a remoção da definição da chave estrangeira da tabela.
