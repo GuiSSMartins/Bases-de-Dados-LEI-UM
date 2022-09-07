@@ -9,19 +9,8 @@
 - __DROP TABLE__ – remoção de uma tabela da base de dados.
 
 __ATENÇÃO__: Mesmo que a Tabela seja _TEMPORÁRIA_, é preciso fazer __DROP__ depois de a usarmos para o que queríamos! 
-```mysql
-CREATE [TEMPORARY] TABLE [IF NOT EXISTS] tbl_name
-    (create_definition,...)
-    [table_options]
-    [partition_options]
-    column_definition: { data_type [NOT NULL | NULL] [DEFAULT
-    {literal | (expr)} ] [VISIBLE | INVISIBLE] [AUTO_INCREMENT]
-    [UNIQUE [KEY]] [[PRIMARY] KEY] [COMMENT 'string'] [COLLATE
-    collation_name] [COLUMN_FORMAT {FIXED | DYNAMIC |
-    DEFAULT}] [ENGINE_ATTRIBUTE [=] 'string']
-    [SECONDARY_ENGINE_ATTRIBUTE [=] 'string'] [STORAGE {DISK | MEMORY}]
-    (…)
-```
+
+---------------------------------------------------------------------------------
 
 #### || Definição das Chaves PRIMÁRIAS e ESTRANGEIRAS + Técnicas de auxílio ||
 
